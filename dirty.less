@@ -66,18 +66,12 @@ body {
         font-size: 22px;
         line-height: 50px;
     }
-    .dt-inline-ul {
-        li {
+    .dt-nav {
+        display: flex;
+        .dt-nav-item {
             font-size: 16px;
             padding: 0 20px;
         }
-    }
-}
-.dt-inline-ul {
-    display: flex;
-    align-items: center;
-    li {
-        padding: 0 5%;
     }
 }
 // components
@@ -88,5 +82,30 @@ body {
     margin: 2%;
     a {
         display: block;
+    }
+}
+.dt-form {
+    font-size: 14px;
+    .dt-form-line {
+        display: flex;
+        padding: 8px 0;
+        .dt-form-label {
+            padding-right: 5px;
+            width: 10%;
+            text-align: right;
+        }
+        .dt-form-input {
+            width: 90%;
+            input {
+                border: 1px solid;
+                padding: 5px;
+            }
+            select {
+                border: 1px solid;
+            }
+            .dt-button {
+                margin: 0;
+            }
+        }
     }
 }

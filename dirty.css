@@ -103,16 +103,12 @@ body h4 {
   font-size: 22px;
   line-height: 50px;
 }
-.dt-head .dt-inline-ul li {
+.dt-head .dt-nav {
+  display: flex;
+}
+.dt-head .dt-nav .dt-nav-item {
   font-size: 16px;
   padding: 0 20px;
-}
-.dt-inline-ul {
-  display: flex;
-  align-items: center;
-}
-.dt-inline-ul li {
-  padding: 0 5%;
 }
 .dt-button {
   border: 1px solid;
@@ -122,4 +118,29 @@ body h4 {
 }
 .dt-button a {
   display: block;
+}
+.dt-form {
+  font-size: 14px;
+}
+.dt-form .dt-form-line {
+  display: flex;
+  padding: 8px 0;
+}
+.dt-form .dt-form-line .dt-form-label {
+  padding-right: 5px;
+  width: 10%;
+  text-align: right;
+}
+.dt-form .dt-form-line .dt-form-input {
+  width: 90%;
+}
+.dt-form .dt-form-line .dt-form-input input {
+  border: 1px solid;
+  padding: 5px;
+}
+.dt-form .dt-form-line .dt-form-input select {
+  border: 1px solid;
+}
+.dt-form .dt-form-line .dt-form-input .dt-button {
+  margin: 0;
 }
