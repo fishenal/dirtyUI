@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #2a3744;
+  background: #fefefe;
+  text-rendering: optimizeLegibility;
+}
+body ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body p {
+  margin: 0;
+}
+body h1 {
+  line-height: 2.6;
+  font-size: 22px;
+}
+body h2 {
+  line-height: 2.4;
+  font-size: 20px;
+}
+body h3 {
+  line-height: 2.2;
+  font-size: 18px;
+}
+body h4 {
+  line-height: 2;
+  font-size: 16px;
+}
+.dt-container {
+  width: 100%;
+}
+.dt-box {
+  display: flex;
+}
+.dt-box .dt-item-12 {
+  width: 100%;
+}
+.dt-box .dt-item-11 {
+  width: 91.66666667%;
+}
+.dt-box .dt-item-10 {
+  width: 83.33333333%;
+}
+.dt-box .dt-item-9 {
+  width: 75%;
+}
+.dt-box .dt-item-8 {
+  width: 66.66666667%;
+}
+.dt-box .dt-item-7 {
+  width: 58.33333333%;
+}
+.dt-box .dt-item-6 {
+  width: 50%;
+}
+.dt-box .dt-item-5 {
+  width: 41.66666667%;
+}
+.dt-box .dt-item-4 {
+  width: 33.33333333%;
+}
+.dt-box .dt-item-3 {
+  width: 25%;
+}
+.dt-box .dt-item-2 {
+  width: 16.66666667%;
+}
+.dt-box .dt-item-1 {
+  width: 8.33333333%;
+}
+.dt-box h1,
+.dt-box h2,
+.dt-box h3,
+.dt-box h4,
+.dt-box h5,
+.dt-box p {
+  padding: 0 2%;
+}
+.dt-box ul {
+  padding: 2%;
+}
+.dt-head {
+  background: #2a3744;
+  color: #fefefe;
+  height: 50px;
+  line-height: 50px;
+}
+.dt-head .dt-title {
+  font-size: 22px;
+  line-height: 50px;
+}
+.dt-head .dt-inline-ul li {
+  font-size: 16px;
+  padding: 0 20px;
+}
+.dt-inline-ul {
+  display: flex;
+  align-items: center;
+}
+.dt-inline-ul li {
+  padding: 0 5%;
+}
+.dt-button {
+  border: 1px solid;
+  padding: 5px 15px;
+  display: inline-block;
+  margin: 2%;
+}
+.dt-button a {
+  display: block;
+}
