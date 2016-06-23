@@ -1,6 +1,6 @@
 {
   "name": "DirtyUI",
-  "tagline": "A deadly simple css UI framework.",
-  "body": "### Dirty UI\r\nA deadly simple css UI framework.",
+  "tagline": "DirtyUi - a Css libarary",
+  "body": "# DirtyUi - a Css libarary\r\n  - Clear Class-names, Easy to use\r\n  - Some kind of Old style fasion\r\n  - Only Three colors, different functions, you can easily customize via less varible.\r\n  - Base on Less, Flex-box(layout), etc.\r\n  \r\n# Demos and Documents\r\n  https://fishenal.github.io/dirtyUI/demo.html\r\n  \r\n# More\r\n  If you like it, Star me.\r\n  If you want improve, fork it freely.",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
