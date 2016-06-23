@@ -45,9 +45,6 @@ body {
         border-color: inherit;
     }
 }
-.dt-container {
-    width: 100%;
-}
 // grid
 .dt-box {
     display: flex;
@@ -80,6 +77,7 @@ body {
 }
 // layout
 .dt-head {
+    display: flex;
     background: @dark-color;
     color: @light-color;
     height: 50px;
@@ -87,9 +85,11 @@ body {
     .dt-title {
         font-size: 22px;
         line-height: 50px;
+        margin-left: 2%;
     }
     .dt-nav {
         display: flex;
+        margin-left: 5%;
         .dt-nav-item {
             font-size: 16px;
             padding: 0 20px;
@@ -122,10 +122,11 @@ body {
 .dt-link-dark {
     .dt-link-function (@light-color, @light-color);
 }
-.dt-link-colorful {
+.dt-link-colorful,
+.dt-link-colorful-1 {
     .dt-link-function (@dark-color, @unique-color);
 }
-.dt-link-colorful-reverse {
+.dt-link-colorful-2 {
     .dt-link-function (@unique-color, @dark-color);
 }
 // list
@@ -225,6 +226,7 @@ body {
     border: 1px solid @color1;
     padding: 2%;
     margin: 2% 0;
+    width: 100%;
 }
 .dt-boarder {
     .dt-boarder-function (@dark-color, @light-color);
@@ -323,4 +325,5 @@ body {
 }
 .dt-table-colorful {
     .dt-table-function (@unique-color, @light-color);
+    border: 1px solid @unique-color;
 }

@@ -3,91 +3,238 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="./dirty.css">
+  <style type="text/css">
+    .demo-fix-nav {
+      position: fixed;
+      top: 50px;
+      left: 0;
+    }
+    .demo-fix-box h1.dt-title-colorful {
+      padding-top: 60px;
+    }
+    .demo-fix-box h1.dt-title-colorful:first-child {
+      padding-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <div class="dt-box dt-head">
-    <h1 class="dt-title">Demos</h1>
+  <div class="dt-head">
+    <h1 class="dt-title">DirtyUI Demos</h1>
     <div class="dt-nav">
       <div class="dt-nav-item">
-        <a href="">link1</a>
+        <a href="#">Demolink1</a>
       </div>
       <div class="dt-nav-item">
-        <a href="">link1</a>
+        <a href="#">Demolink2</a>
       </div>
       <div class="dt-nav-item">
-        <a href="">link1</a>
+        <a href="#">Demolink3</a>
       </div>
     </div>
   </div>
-  <div class="dt-box">
+  <div class="dt-box demo-fix-box">
     <div class="dt-item dt-item-3">
-      <ul class="dt-list">
-        <li>VOCALOID1</li>
-        <li>VOCALOID2</li>
-        <li>VOCALOID3</li>
-        <li>VOCALOID4</li>
-      </ul>
-      <ul class="dt-list-2">
-        <li>VOCALOID1</li>
-        <li>VOCALOID2</li>
-        <li>VOCALOID3</li>
-        <li>VOCALOID4</li>
-      </ul>
-      <ul class="dt-list-3">
-        <li>VOCALOID1</li>
-        <li>VOCALOID2</li>
-        <li>VOCALOID3</li>
-        <li>VOCALOID4</li>
-      </ul>
-      <ul class="dt-list-4">
-        <li>VOCALOID1</li>
-        <li>VOCALOID2</li>
-        <li>VOCALOID3</li>
-        <li>VOCALOID4</li>
-      </ul>
+      <div class="demo-fix-nav dt-item-3">
+        <ul class="dt-list">
+          <li>
+            <a href="#tbc">Three Basic Colors</a>
+          </li>
+          <li>
+            <a href="#gs">Grid System</a>
+          </li>
+          <li>
+            <a href="#bts">Base Tag Styles</a>
+          </li>
+          <li>
+            <a href="#mus">Mix Use Styles</a>
+          </li>
+          <li>
+            <a href="#hd">Head</a>
+          </li>
+          <li>
+            <a href="#tt">Titles</a>
+          </li>
+          <li>
+            <a href="#lks">Links</a>
+          </li>
+          <li>
+            <a href="#lst">Lists</a>
+          </li>
+          <li>
+            <a href="#btn">Buttons</a>
+          </li>
+          <li>
+            <a href="#bds">Boarders</a>
+          </li>
+          <li>
+            <a href="#fm">Form</a>
+          </li>
+          <li>
+            <a href="#tb">Table</a>
+          </li>
+        </ul>  
+      </div>
     </div>
     <div class="dt-item dt-item-8">
-      <h1 class="dt-title-colorful">VOCALOID3</h1>
-      <h2>VOCALOID3</h2>
-      <h3>VOCALOID3</h3>
-      <h4>VOCALOID3</h4>
+      <h1 class="dt-title-colorful" id="tbc">Three Basic Colors</h1>
+      <ul class="dt-list-2">
+        <li>@dark-color: #003d51;</li>
+        <li>@light-color: #f5f5f5;
+        <li>@unique-color: #ffae00;</li>
+      </ul>
+      <h1 class="dt-title-colorful" id="gs">Grid System</h1>
+      <p  class="dt-boarder-colorful-3">.dt-box > .dt-item-1 ~ .dt-item-12</p>
+      <div class="dt-box">
+        <div class="dt-item-2">.dt-item-2</div>
+        <div class="dt-item-10">.dt-item-10</div>
+      </div>
+      <div class="dt-box">
+        <div class="dt-item-6">.dt-item-6</div>
+        <div class="dt-item-6">.dt-item-6</div>
+      </div>
+      <div class="dt-box">
+        <div class="dt-item-4">.dt-item-4</div>
+        <div class="dt-item-4">.dt-item-4</div>
+        <div class="dt-item-4">.dt-item-4</div>
+      </div>
+      
+      <h1 class="dt-title-colorful" id="bts">Base Tag Styles</h1>
+
+      <h1>h1 title</h1>
+      <h2>h2 title</h2>
+      <h3>h3 title</h3>
+      <h4>h4 title</h4>
+      <p>p tag:</p>
+      <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
+      
+      <h1 class="dt-title-colorful" id="mus">Mix Use Styles</h1>
+      <div class="dt-center">.dt-center</div>
+      <div class="dt-colorful">.dt-colorful</div>
+      <div class="dt-dark">.dt-dark</div>
       <div class="dt-boarder-colorful">
-        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link dt-link-colorful-reverse">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
+        <div class="dt-light">.dt-light</div>  
+      </div>
+      
+      <h1 class="dt-title-colorful" id="hd">Head</h1>
+      <p  class="dt-boarder-colorful-3">Display as this page head:</p>
+      <p  class="dt-boarder-colorful-3">.dt-head > .dt-title</p>
+      <p  class="dt-boarder-colorful-3">.dt-head > .dt-nav > .dt-nav-item</p>
+
+      <h1 class="dt-title-colorful" id="tt">Titles</h1>
+      <p  class="dt-boarder-colorful-3">Mix use with tags, same followings.</p>
+      <h3 class="dt-title">.dt-title</h3>
+      <h3 class="dt-title-colorful">.dt-title-colorful</h3>
+      
+      <h1 class="dt-title-colorful" id="lks">Links</h1>
+      <a href="#" class="dt-link">.dt-link</a>
+      <div class="dt-boarder-colorful">
+        <a href="#" class="dt-link-dark">.dt-link-dark</a>
+      </div>
+      <a href="#" class="dt-link-colorful-1">.dt-link-colorful-1</a>
+      <a href="#" class="dt-link-colorful-2">.dt-link-colorful-2</a>
+      
+
+      <h1 class="dt-title-colorful" id="lst">Lists</h1>
+      <ul class="dt-list">
+        <li>.dt-list or .dt-list-1</li>
+        <li>.dt-list or .dt-list-1</li>
+        <li>.dt-list or .dt-list-1</li>
+      </ul>
+      <ul class="dt-list-2">
+        <li>.dt-list-2</li>
+        <li>.dt-list-2</li>
+        <li>.dt-list-2</li>
+      </ul>
+      <ul class="dt-list-3">
+        <li>.dt-list-3</li>
+        <li>.dt-list-3</li>
+        <li>.dt-list-3</li>
+      </ul>
+      <ul class="dt-list-4">
+        <li>.dt-list-4</li>
+        <li>.dt-list-4</li>
+        <li>.dt-list-4</li>
+      </ul>
+
+      <h1 class="dt-title-colorful" id="btn">Buttons</h1>
+      <h2>Unmix use:</h2>
+      <br>
+      <div class="dt-button">
+        <a href="#">.dt-button</a>
+      </div>
+      <div class="dt-button-dark">
+        <a href="#">.dt-button-dark</a>
+      </div>
+      <div class="dt-button-colorful">
+        <a href="#">.dt-button-colorful or .dt-button-colorful-1</a>
+      </div>
+      <div class="dt-button-colorful-2">
+        <a href="#">.dt-button-colorful-2</a>
+      </div>
+      <div class="dt-button-colorful-3">
+        <a href="#">.dt-button-colorful-3</a>
+      </div>
+      <br>
+      <h2>Mix use:</h2>
+      <br>
+      <div class="dt-button-dark dt-button-big">
+        <a href="#">.dt-button-dark && .dt-button-big</a>
+      </div>
+      <div class="dt-button-dark dt-button-small">
+        <a href="#">.dt-button-dark && .dt-button-small</a>
+      </div>
+
+
+      <h1 class="dt-title-colorful" id="bds">Boarders</h1>
+      <div class="dt-boarder">
+        <p>.dt-boarder</p>
+        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link dt-link-colorful">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
+      </div>
+      <div class="dt-boarder-dark">
+        <p>.dt-boarder-dark</p>
+        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link-dark">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
+      </div>
+      <div class="dt-boarder-colorful">
+        <p>.dt-boarder-colorful</p>
+        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link-dark">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
       </div>
       <div class="dt-boarder-colorful-2">
-        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link dt-link-colorful-reverse">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
+        <p>.dt-boarder-colorful-2</p>
+        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link dt-link-colorful">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
       </div>
       <div class="dt-boarder-colorful-3">
-        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link dt-link-colorful-reverse">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
+        <p>.dt-boarder-colorful-3</p>
+        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link dt-link-colorful">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
       </div>
       <div class="dt-boarder-colorful-4">
-        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link dt-link-colorful-reverse">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
+        <p>.dt-boarder-colorful-4</p>
+        <p>VOCALOID3 was first announced mid-2011 at a special invitation only event. The release date was set for September 2011, however it was held back on several <a href="" class="dt-link dt-link-colorful-2">台风</a>occasions until it was eventually released on October 21, 2011. This particular version had a large amount of early promotion, and there was almost as many new voicebanks revealed as there were in the entire VOCALOID2 range. YAMAHA also showed great interest in promoting its well established Japanese VOCALOID producer fanbase while expanding the usage of VOCALOID itself.</p>
       </div>
-      <p>再次上神图。图为一架320路过汕头时，机载天气雷达照到得“天兔” 台风。来自微博“耀哥要减肥 ”。正常的飞行都不会让自己的航路进去红区。<a href="" class="dt-link dt-link-colorful">goto what</a>飞行员可以根据气象雷达图像及目视的云层申请航路偏置或者改变航路。当然总有一些飞行员“技艺高超”。</p>
-      <div class="dt-button dt-button-colorful">
-        <a href="">click to use</a>
-      </div>
-      <div class="dt-button dt-button-colorful-3">
-        <a href="">click to use</a>
-      </div>
+      
+      <h1 class="dt-title-colorful" id="fm">Form</h1>
+      <h2>Inline Use:</h2>
+      <p class="dt-boarder-colorful-3">.dt-form > .dt-form-line > .dt-form-label</p>
+      <p class="dt-boarder-colorful-3">.dt-form > .dt-form-line > .dt-form-input</p>
+      <h2>Unmix Use:</h2>
+      <p class="dt-boarder-colorful-3">.dt-input .dt-input-dark .dt-select .dt-button ...</p>
       <form class="dt-form">
         <div class="dt-form-line">
           <div class="dt-form-label">name:</div>
           <div class="dt-form-input">
-            <input type="text" class="dt-input"></input>
+            <input type="text" class="dt-input" value=".dt-input"></input>
           </div>
         </div>
         <div class="dt-form-line">
           <div class="dt-form-label">numbers:</div>
           <div class="dt-form-input">
-            <input type="text" class="dt-input-dark"></input>
+            <input type="text" class="dt-input-dark" value=".dt-input-dark"></input>
           </div>
         </div>
         <div class="dt-form-line">
-          <div class="dt-form-label">name:</div>
+          <div class="dt-form-label">.dt-select:</div>
           <div class="dt-form-input">
             <select class="dt-select">
-              <option>apple</option>
+              <option>.dt-select</option>
               <option>banana</option>
               <option>pinapple</option>
             </select>
@@ -106,21 +253,21 @@
           <div class="dt-form-input">
             <input type="radio"> 1
             <input type="radio"> 2
-            <input type="radio"> 3xxxhhhzzz
+            <input type="radio"> 3zzzhh
           </div>
         </div>
         <div class="dt-form-line">
           <div class="dt-form-label"></div>
           <div class="dt-form-input">
-            <div class="dt-button dt-button-small">
-              <a href="">submit</a>
-            </div>
-            <div class="dt-button dt-button-big">
+            <div class="dt-button">
               <a href="">submit</a>
             </div>
           </div>
         </div>
       </form>
+
+      <h1 class="dt-title-colorful" id="tb">Tables</h1>
+      <h2>.dt-table</h2>
       <table class="dt-table">
         <tr>
           <th>title</th>
@@ -138,7 +285,26 @@
           <td>IWYR78922</td>
         </tr>
       </table>
+      <h2>.dt-table-dark</h2>
       <table class="dt-table-dark">
+        <tr>
+          <th>title</th>
+          <th>name</th>
+          <th>number</th>
+        </tr>
+        <tr>
+          <td>apple</td>
+          <td>apple tree</td>
+          <td>AHDJ657812</td>
+        </tr>
+        <tr>
+          <td>banana</td>
+          <td>banana boat</td>
+          <td>IWYR78922</td>
+        </tr>
+      </table>
+      <h2>.dt-table-colorful</h2>
+      <table class="dt-table-colorful">
         <tr>
           <th>title</th>
           <th>name</th>
