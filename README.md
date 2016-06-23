@@ -7,6 +7,5 @@
 # Demos and Documents
   https://fishenal.github.io/dirtyUI/demo.html
   
-# More
-  If you like it, Star me.
-  If you want improve, fork it freely.
+# Contributing
+  Welcome to contribute.
