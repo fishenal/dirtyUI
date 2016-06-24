@@ -1,0 +1,256 @@
+.dtg-board-yellow {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 0px 8px #000000;
+  background: linear-gradient(-10deg, #f5d500 20%, #fff053 90%);
+  border-radius: 10%;
+  border: 1px solid #deb200;
+}
+.dtg-board-yellow:after {
+  content: "";
+  display: block;
+  width: 15%;
+  height: 10%;
+  background: red;
+  border-radius: 50%;
+  transform: rotate(-20deg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  margin: 2px;
+}
+.dtg-board-inset-yellow {
+  background: #f5d500;
+  border-radius: 15px;
+  width: 200px;
+  height: 100px;
+  box-shadow: inset 0px 0px 20px 5px #deb200;
+}
+.dtg-button-yellow {
+  height: 30px;
+  display: inline-block;
+  padding: 5px 15px;
+  box-shadow: 0px 0px 4px #deb200;
+  background: linear-gradient(-10deg, #f5d500 20%, #fff053 90%);
+  border-radius: 10px;
+  border: 1px solid #deb200;
+  position: relative;
+}
+.dtg-button-yellow:hover {
+  background: linear-gradient(-10deg, #f5d500 20%, #fff096 90%);
+  box-shadow: 0px 0px 1px #deb200;
+}
+.dtg-button-yellow:hover a {
+  color: #deb200;
+}
+.dtg-button-yellow a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: #deb200;
+}
+.dtg-text-yellow {
+  background: -webkit-linear-gradient(#fff053, #f5d500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+.dtg-board-red {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 0px 8px #000000;
+  background: linear-gradient(-10deg, #d30428 20%, #fa5a75 90%);
+  border-radius: 10%;
+  border: 1px solid #700013;
+}
+.dtg-board-red:after {
+  content: "";
+  display: block;
+  width: 15%;
+  height: 10%;
+  background: red;
+  border-radius: 50%;
+  transform: rotate(-20deg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  margin: 2px;
+}
+.dtg-board-inset-red {
+  background: #d30428;
+  border-radius: 15px;
+  width: 200px;
+  height: 100px;
+  box-shadow: inset 0px 0px 20px 5px #700013;
+}
+.dtg-button-red {
+  height: 30px;
+  display: inline-block;
+  padding: 5px 15px;
+  box-shadow: 0px 0px 4px #700013;
+  background: linear-gradient(-10deg, #d30428 20%, #fa5a75 90%);
+  border-radius: 10px;
+  border: 1px solid #700013;
+  position: relative;
+}
+.dtg-button-red:hover {
+  background: linear-gradient(-10deg, #d30428 20%, #fe93a5 90%);
+  box-shadow: 0px 0px 1px #700013;
+}
+.dtg-button-red:hover a {
+  color: #700013;
+}
+.dtg-button-red a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: #700013;
+}
+.dtg-text-red {
+  background: -webkit-linear-gradient(#fa5a75, #d30428);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+.dtg-board-green {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 0px 8px #000000;
+  background: linear-gradient(-10deg, #99c71b 20%, #d6f266 90%);
+  border-radius: 10%;
+  border: 1px solid #1b7023;
+}
+.dtg-board-green:after {
+  content: "";
+  display: block;
+  width: 15%;
+  height: 10%;
+  background: red;
+  border-radius: 50%;
+  transform: rotate(-20deg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  margin: 2px;
+}
+.dtg-board-inset-green {
+  background: #99c71b;
+  border-radius: 15px;
+  width: 200px;
+  height: 100px;
+  box-shadow: inset 0px 0px 20px 5px #1b7023;
+}
+.dtg-button-green {
+  height: 30px;
+  display: inline-block;
+  padding: 5px 15px;
+  box-shadow: 0px 0px 4px #1b7023;
+  background: linear-gradient(-10deg, #99c71b 20%, #d6f266 90%);
+  border-radius: 10px;
+  border: 1px solid #1b7023;
+  position: relative;
+}
+.dtg-button-green:hover {
+  background: linear-gradient(-10deg, #99c71b 20%, #e8ff8e 90%);
+  box-shadow: 0px 0px 1px #1b7023;
+}
+.dtg-button-green:hover a {
+  color: #1b7023;
+}
+.dtg-button-green a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: #1b7023;
+}
+.dtg-text-green {
+  background: -webkit-linear-gradient(#d6f266, #99c71b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+.dtg-board-blue {
+  width: 150px;
+  height: 150px;
+  box-shadow: 0px 0px 8px #000000;
+  background: linear-gradient(-10deg, #1188ee 20%, #3cd4fb 90%);
+  border-radius: 10%;
+  border: 1px solid #285493;
+}
+.dtg-board-blue:after {
+  content: "";
+  display: block;
+  width: 15%;
+  height: 10%;
+  background: red;
+  border-radius: 50%;
+  transform: rotate(-20deg);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%);
+  margin: 2px;
+}
+.dtg-board-inset-blue {
+  background: #1188ee;
+  border-radius: 15px;
+  width: 200px;
+  height: 100px;
+  box-shadow: inset 0px 0px 20px 5px #285493;
+}
+.dtg-button-blue {
+  height: 30px;
+  display: inline-block;
+  padding: 5px 15px;
+  box-shadow: 0px 0px 4px #285493;
+  background: linear-gradient(-10deg, #1188ee 20%, #3cd4fb 90%);
+  border-radius: 10px;
+  border: 1px solid #285493;
+  position: relative;
+}
+.dtg-button-blue:hover {
+  background: linear-gradient(-10deg, #1188ee 20%, #7be4ff 90%);
+  box-shadow: 0px 0px 1px #285493;
+}
+.dtg-button-blue:hover a {
+  color: #285493;
+}
+.dtg-button-blue a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  text-decoration: none;
+  color: #285493;
+}
+.dtg-text-blue {
+  background: -webkit-linear-gradient(#3cd4fb, #1188ee);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  font-weight: bold;
+}
+.dtg-button-small {
+  height: 24px;
+  padding: 4px 10px;
+  border-radius: 6px;
+}
+.dtg-button-small a {
+  font-size: 14px;
+}
+.dtg-button-medium {
+  height: 30px;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.dtg-button-medium a {
+  font-size: 18px;
+}
+.dtg-button-big {
+  height: 40px;
+  padding: 8px 20px;
+  border-radius: 12px;
+}
+.dtg-button-big a {
+  font-size: 22px;
+}
